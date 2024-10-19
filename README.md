@@ -1,6 +1,6 @@
 # Face Tracking Demo
 
-Detect and track faces from a webcam (required).
+Detect faces from a webcam .
 
 ### Image Detection for Real-Time Apps
 
@@ -39,19 +39,5 @@ Blue = Box from previous detection, updated via tracking.
 python face_tracking.py`
 ````
 
-Optionally use `-i` argument to set different detection intervals, in seconds. Default=6.
-
-````
-python face_tracking.py -i 3
-````
-
-## Sample
-
-![sample](./sample.gif)
-
-
-# LICENSE
-
-MIT
 
 
